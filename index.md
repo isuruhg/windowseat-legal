@@ -14,11 +14,12 @@ and to keep your data on your device.
 - **Barometric pressure.** Read from the watch's barometer to detect the flight phase
   (climb, cruise, descent, landed). Processed on the device only; never transmitted.
 - **Flight number.** If you use flight-number lookup or live sync, the flight number and
-  date are sent to the AeroDataBox flight-data API (via the provider you configured) to
-  retrieve schedules and live status. No other personal data accompanies these requests.
-  See the provider's own privacy policy for how they handle requests.
-- **API key.** Your AeroDataBox API key is stored locally on the watch and used only to
-  authenticate the requests above.
+  date are sent over HTTPS to Windowseat's lookup service, which retrieves schedules and
+  live status from the AeroDataBox flight-data API. The request also carries a **random,
+  anonymous per-install identifier** used solely for abuse prevention (rate limiting).
+  This identifier is not linked to you, your location, or any account, and lookup
+  responses may be briefly cached (about two minutes) to reduce upstream traffic.
+  No other data accompanies these requests, and none of it is stored beyond the cache.
 
 ## What the app does not do
 
