@@ -1,7 +1,7 @@
 # Windowseat — Privacy Policy
 
 **Effective date:** 14 September 2026
-**Developer contact:** isuruhg@gmail.com
+**Developer contact:** helloizzylogic@gmail.com
 
 Windowseat is a flight-progress tracker for smartwatches. It is designed to work offline
 and to keep your data on your device.
