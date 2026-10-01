@@ -1,6 +1,6 @@
 # Windowseat — Privacy Policy
 
-**Effective date:** 14 September 2026
+**Effective date:** 1 October 2026
 **Developer contact:** helloizzylogic@gmail.com
 
 Windowseat is a flight-progress tracker for smartwatches. It is designed to work offline
@@ -21,6 +21,10 @@ and to keep your data on your device.
   responses may be briefly cached (about two minutes) to reduce upstream traffic.
   No other data accompanies these requests, and none of it is stored beyond the cache.
 
+- **Flight logbook.** When a flight lands, the app saves a short record of it on the watch:
+  flight number, route, departure and arrival times, distance, how early or late it was,
+  the aircraft model and the countries flown over. It never leaves the watch.
+
 ## What the app does not do
 
 - No accounts, no sign-in.
@@ -31,9 +35,10 @@ and to keep your data on your device.
 
 ## Data retention and deletion
 
-All data (tracked flight, GPS fixes, pressure history, API key) lives in the app's local
-storage on the watch. Ending a flight deletes its data; uninstalling the app deletes
-everything.
+All data (the tracked flight, GPS fixes, pressure history, API key and the flight logbook)
+lives in the app's local storage on the watch. Ending a flight deletes its GPS fixes and
+pressure history; the logbook keeps the summary described above. Uninstalling the app
+deletes everything, including the logbook.
 
 ## Changes
 
