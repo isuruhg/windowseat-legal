@@ -1,10 +1,11 @@
-# Windowseat — Privacy Policy
+# Skyris — Privacy Policy
 
-**Effective date:** 1 October 2026
+**Effective date:** 15 October 2026
 **Developer contact:** helloizzylogic@gmail.com
 
-Windowseat is a flight-progress tracker for smartwatches. It is designed to work offline
-and to keep your data on your device.
+Skyris is a flight-progress tracker for smartwatches. It is designed to work offline
+and to keep your data on your device. Skyris was previously called Windowseat; this policy
+covers both names.
 
 ## What the app collects and how it is used
 
@@ -14,7 +15,7 @@ and to keep your data on your device.
 - **Barometric pressure.** Read from the watch's barometer to detect the flight phase
   (climb, cruise, descent, landed). Processed on the device only; never transmitted.
 - **Flight number.** If you use flight-number lookup or live sync, the flight number and
-  date are sent over HTTPS to Windowseat's lookup service, which retrieves schedules and
+  date are sent over HTTPS to Skyris's lookup service, which retrieves schedules and
   live status from the AeroDataBox flight-data API. The request also carries a **random,
   anonymous per-install identifier** used solely for abuse prevention (rate limiting).
   This identifier is not linked to you, your location, or any account, and lookup

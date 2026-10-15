@@ -1,6 +1,6 @@
-# Windowseat — Data Deletion
+# Skyris — Data Deletion
 
-Windowseat stores your data (tracked flight, GPS fixes, pressure history, flight logbook,
+Skyris stores your data (tracked flight, GPS fixes, pressure history, flight logbook,
 settings) **only on your watch**. Ending a flight deletes its GPS fixes and pressure history;
 a short summary stays in the logbook. To delete everything, including the logbook, uninstall
 the app — nothing remains anywhere else.
